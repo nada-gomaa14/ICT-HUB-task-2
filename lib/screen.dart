@@ -12,12 +12,12 @@ class Screen extends StatefulWidget {
 class _ScreenState extends State<Screen> {
   int likes = 0;
   List<ImageModel> images = [
-    ImageModel('https://cafdn.org/wp-content/uploads/2021/06/Jodene-article-hero-e1655835747755-640x640.webp'),
-    ImageModel('https://t3.ftcdn.net/jpg/03/70/29/26/360_F_370292674_QS5nA0bJgyRD6VzYycTQdSWhhSHQJbQZ.jpg'),
-    ImageModel('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LtCrYlmpYUw8cSAmmiC69oRYG1U_qdY_YA&s'),
-    ImageModel('https://www.opticalexpress.co.uk/media/1064/man-with-glasses-smiling-looking-into-distance.jpg'),
-    ImageModel('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw-sz_ynsO6fK1gee7Kz13-xZHInABzJrXw&s'),
-    ImageModel('https://imgcdn.stablediffusionweb.com/2024/10/29/6f789671-5fda-4caf-87d4-99787a61ef3e.jpg')
+    ImageModel(src: 'https://cafdn.org/wp-content/uploads/2021/06/Jodene-article-hero-e1655835747755-640x640.webp'),
+    ImageModel(src: 'https://t3.ftcdn.net/jpg/03/70/29/26/360_F_370292674_QS5nA0bJgyRD6VzYycTQdSWhhSHQJbQZ.jpg'),
+    ImageModel(src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LtCrYlmpYUw8cSAmmiC69oRYG1U_qdY_YA&s'),
+    ImageModel(src: 'https://www.opticalexpress.co.uk/media/1064/man-with-glasses-smiling-looking-into-distance.jpg'),
+    ImageModel(src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGw-sz_ynsO6fK1gee7Kz13-xZHInABzJrXw&s'),
+    ImageModel(src: 'https://imgcdn.stablediffusionweb.com/2024/10/29/6f789671-5fda-4caf-87d4-99787a61ef3e.jpg')
   ];
 
   @override

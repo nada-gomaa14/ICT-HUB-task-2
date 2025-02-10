@@ -1,7 +1,7 @@
 class ImageModel {
-  String src = '';
+  String src;
 
-  ImageModel(String src){
-    this.src = src;
-  }
+  ImageModel({
+    required this.src
+  });
 }
